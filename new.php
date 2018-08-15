@@ -28,14 +28,7 @@
     
     createFile($title_path, "TODO: Title (Replace this with the blog post title)");
     
-    createFile($content_path,"<!DOCTYPE html> \
-                                <html> \
-                                    <body> \
-                                        <h1>TODO</h1> \
-                                        <p>Content</p> \
-                                    </body> \
-                                </html>"
-               );
+    createFile($content_path, "<!DOCTYPE html><html><body><h1>TODO</h1><p>Content</p></body></html>");
     
     echo "Creating content \n";
 
