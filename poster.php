@@ -3,7 +3,6 @@
     $curl = curl_init();
     
     $blog_post_number = $argv[1];
-    
     $api_key = $argv[2];
 
     echo "Processing blog post #".$blog_post_number."...\n";
