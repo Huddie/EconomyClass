@@ -74,16 +74,16 @@
     
     echo "Processing blog post #".$blog_post_number."...\n";
     
-    if ( !is_dir("./Blog-Posts/".$blog_post_number) ) {
+    if ( !is_dir("../Blog-Posts/".$blog_post_number) ) {
         echo "This blog post has not been created yet\n Type php new.php ".$blog_post_number." to get started";
         return;
     }
     
     /* Get blog post data */
-    $title = file_get_contents("./Blog-Posts/".$blog_post_number."/title.txt");
-    $content = file_get_contents("./Blog-Posts/".$blog_post_number."/content.html");
-    $tags = file_get_contents("./Blog-Posts/".$blog_post_number."/tags.txt");
-    $categories = file_get_contents("./Blog-Posts/".$blog_post_number."/categories.txt");
+    $title = file_get_contents("../Blog-Posts/".$blog_post_number."/title.txt");
+    $content = file_get_contents("../Blog-Posts/".$blog_post_number."/content.html");
+    $tags = file_get_contents("../Blog-Posts/".$blog_post_number."/tags.txt");
+    $categories = file_get_contents("../Blog-Posts/".$blog_post_number."/categories.txt");
     
     
     /* Format */
