@@ -12,7 +12,8 @@
        return 0;
     }
     
-    function createFile($path, $initial_content) {
+    function createFile($path, $initial_content)
+    {
        $file = fopen($path,"w");
        fwrite($file, $initial_content);
        fclose($file);
