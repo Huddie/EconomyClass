@@ -1,2 +1,0 @@
-TODO: Tags (Replace this with the blog post tags
- Format: tag,tag2,tag3)
